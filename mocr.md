@@ -10,9 +10,6 @@ This manual isn't necessarily realistic, and is not crew-rated.
 
 This manual assumes you have already read the MCC-manual
 
-**Note:** This feature is currently TP-only
-
-
 ## Controls
 
 ## Voice chat
