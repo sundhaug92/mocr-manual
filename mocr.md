@@ -2,7 +2,7 @@
 
 ![MOCR main-room overview](./images/main-room/TEMP-dummy-overview-03-v0_7544.png)
 
-Manual version 0.8093.0-git (for MOCR / "MOCRL" version 0.77)
+Manual version 0.8311.0-git (for MOCR / "MOCRL" version 0.85)
 
 This manual isn't necessarily realistic, and is not crew-rated.
 
@@ -170,6 +170,13 @@ This is the LM-equivalent of [AGC CMC DSKY (channel 01)](#01-cmc-dsky-and-state-
 #### (90) RTCC
 
 See section [RTCC](#rtcc)
+
+#### (1111) Earth map
+
+Used on main screen to show the Earth map
+#### (2222) Lunar map
+
+Used on main screen to show the Lunar map and AGL
 
 ## RTCC
 NASAs Real-Time Computing Complex, which resides at the first floor of building 30, the same building that houses MOCR 1 and 2, houses 5 IBM 360/75 computers, of which at any time 2 are used redundantly (1 active, 1 hotswap) to support the flight, while the others are used for sims, experiments, etc, and can be swapped in to replace one of the two flight support computers. Data from the RTCC is primarily fed into the display control system, including the television slide display, which is responsible for controlling the overlays used in the above-mentioned TV-system.
