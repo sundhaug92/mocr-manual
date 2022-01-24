@@ -17,7 +17,8 @@
 	"extensions": [
 		"yzane.markdown-pdf",
 		"hnw.vscode-auto-open-markdown-preview",
-		"jrieken.md-navigate"
+		"jrieken.md-navigate",
+		"davidanson.vscode-markdownlint"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
