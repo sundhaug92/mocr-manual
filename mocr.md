@@ -40,7 +40,6 @@ In the above example you I've chosen to listen to all loops, and speaking to the
 
 In the above example on the other hand, I've chosen to only listen to the assistant flight director and the flight director loops, and to speak on the assistant flight loop.
 
-
 ## Views
 
 ![](images/generic/view-selector-v0_8093.png)
@@ -55,9 +54,7 @@ See also:
 
 ### FAO
 
-
 ### PAO
-
 
 ### BOOSTER
 
@@ -127,6 +124,7 @@ The AFD also controls a 60 minute clock visible both from their local desk and a
 ## Big screens
 
 Left to right
+
 1. LEFT PROJ TV
 2. CENTER LEFT PROJ TV
 3. MAIN PROJ SCREEN
@@ -138,15 +136,19 @@ Left to right
 Each console has a number of 14" screens. With these you can look at a number of channels with various data. One way of selecting the data to be shown is to use TV-mode.
 
 To select a TV-mode channel:
+
 1. Press TV mode
 2. Select the channel with the appropriate input selector, depending on which screen you want to put it on. If you're unsure of which channel you want, select [TV-guide (channel XX)](#16-tv-guide).
 3. Now one or more buttons should light up, depending on how many screens controlled by that input selector. Press the relevant screen by pushing selecting it under "ENTER".
 
 ### TV channels
+
 #### (01) CMC DSKY AND STATE BUFF MON (AGC CMC DSKY)
+
 This screen shows the CMC DSKY (CSM AGC DSKY), and various AGC state.
 
 #### (03) (CSM EPS CRYO)
+
 ![](./images/screens/TEMP-screen-TV-03-CSM-ECS-CRYO-tab-v0_7602.png)
 
 #### (06) CSM GNC PRIMARY TAB (GNC PRIMARY)
@@ -177,13 +179,11 @@ This is the LM-equivalent of [AGC CMC DSKY (channel 01)](#01-cmc-dsky-and-state-
 
 #### (35) (CSM LOOK AGL)
 
-
 #### (36) (LM ECS)
 
 ![](./images/screens/TEMP-screen-TV-36-LM-ECS-v0_7601.png)
 
 #### (37) (LM LOOK AGL)
-
 
 #### (39) (FDO LM ORB)
 
@@ -208,11 +208,13 @@ See section [RTCC](#rtcc)
 #### (1111) Earth map
 
 Used on main screen to show the Earth map
+
 #### (2222) Lunar map
 
 Used on main screen to show the Lunar map and AGL
 
 ## RTCC
+
 NASAs Real-Time Computing Complex, which resides at the first floor of building 30, the same building that houses MOCR 1 and 2, houses 5 IBM 360/75 computers, of which at any time 2 are used redundantly (1 active, 1 hotswap) to support the flight, while the others are used for sims, experiments, etc, and can be swapped in to replace one of the two flight support computers. Data from the RTCC is primarily fed into the display control system, including the television slide display, which is responsible for controlling the overlays used in the above-mentioned TV-system.
 
 To access RTCC programs, you must first:
@@ -230,6 +232,7 @@ In the case of GUIDANCE you use the left keyboard to input load-numbers and to i
 ![](./images/main-room/TEMP-dummy-guidance-02-v0_7601.png)
 
 ### RTCC program guide
+
 #### Program guide
 
 ##### DSKY
