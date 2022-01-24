@@ -96,25 +96,25 @@ The screens at the front of the room are generally set to reflect the current mi
     - Pre Launch
     - Post Insertion
     - Periodic Systems Checks (in coordination with the ASTRO)
-  - Left: Channel 3 (CSM EPS CRYO)
-  - Left Center: Channel 34 (CSM EPS HD)
-  - Right: Channel 6 (GNC Primary)
+  - Left: Channel 3 ([CSM EPS CRYO](#03-csm-eps-cryo))
+  - Left Center: Channel 34 ([CSM EPS HD](#34-csm-eps-hd))
+  - Right: Channel 6 ([GNC Primary](#06-gnc-primary))
 - Boost (T-25 to Insertion)
   - From T-25 (from liftoff) to Earth Parking Orbit Insertion. Allows the entire MOCR to keep an eye on key pages during boost for issues, including the current state of the SIVb and orbital data, helping visualize the current state of the CSM without sacrificing local station screen real estate.
-  - Left: Channel 25 (SLV BSE NO 1)
-  - Left Center: Channel 4 (VEH ACC)
-  - Right: Channel 7 (FDO CSM ORB)
+  - Left: Channel 25 ([SLV BSE NO 1](#25-slv-bse-no-1))
+  - Left Center: Channel 4 ([VEH ACC](#04-veh-acc))
+  - Right: Channel 7 ([FDO CSM ORB](#07-fdo-csm-orbital))
 - TLI
   - From post insertion checks complete to SVIb Shutoff, similar to boost but trades out the now useless VEH ACC page for the CSM's burn alignment to ensure the TLI burn remains on target.
-  - Left: Channel 25 (SLV BSE NO 1)
-  - Left Center: Channel 35 (CSM look AGL)
-  - Right: Channel 6 (GNC Primary)
+  - Left: Channel 25 ([SLV BSE NO 1](#25-slv-bse-no-1))
+  - Left Center: Channel 35 ([CSM look AGL](#35-csm-look-agl))
+  - Right: Channel 6 ([GNC Primary](#06-gnc-primary))
 - SPS Burn
   - For any kind of corrective Guido calculated maneuver involving the CSM primary engine, Note the SPS Burn Mon Page does NOT work with the SVIb during TLI
-  - Left:       Chn 14  (SPS Burn Mon)
-  - Left Ctr:   Chn 35  (CSM look AGL)
-  - Right: Channel 7 (FDO CSM Orb)
-    - Alternate: Channel 6 (GNC Primary)
+  - Left: Channel 14  ([SPS Burn Mon](#14-sps-burn-mon))
+  - Left Center: Channel 35  ([CSM look AGL](#35-csm-look-agl))
+  - Right: Channel 7 ([FDO CSM ORB](#07-fdo-csm-orbital))
+    - Alternate: Channel 6 ([GNC Primary](#06-gnc-primary))
       - When FDO CSM Orb isn't providing useful data
 
 #### AFD Clock
