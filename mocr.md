@@ -90,6 +90,40 @@ The flight director role is mostly the same as in Mercury. This includes holding
 
 The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the [](#big-screens). This is done in a similar way to selecting content for the small screens (See [Screens](#screens)), with the addition of a few buttons to select the projectors.
 
+#### Main room display screens
+
+The screens at the front of the room are generally set to reflect the current mission task in the short term. Screens may be put up on request, but a good AFD should have a "set" of screens ready to go depending on current objectives. A few example mission tasks and their matching screen sets are provided below.
+
+- CSM systems check
+  - A generic default state to keep an eye on CSM systems. Though also especially useful for the following mission stages/tasks:
+    - Pre Launch
+    - Post Insertion
+    - Periodic Systems Checks (in coordination with the ASTRO)
+  - Left: Channel 3 (CSM EPS CRYO)
+  - Left Center: Channel 34 (CSM EPS HD)
+  - Right: Channel 6 (GNC Primary)
+- Boost (T-25 to Insertion)
+  - From T-25 (from liftoff) to Earth Parking Orbit Insertion. Allows the entire MOCR to keep an eye on key pages during boost for issues, including the current state of the SIVb and orbital data, helping visualize the current state of the CSM without sacrificing local station screen real estate.
+  - Left: Channel 25 (SLV BSE NO 1)
+  - Left Center: Channel 4 (VEH ACC)
+  - Right: Channel 7 (FDO CSM ORB)
+- TLI
+  - From post insertion checks complete to SVIb Shutoff, similar to boost but trades out the now useless VEH ACC page for the CSM's burn alignment to ensure the TLI burn remains on target.
+  - Left: Channel 25 (SLV BSE NO 1)
+  - Left Center: Channel 35 (CSM look AGL)
+  - Right: Channel 6 (GNC Primary)
+- SPS Burn
+  - For any kind of corrective Guido calculated maneuver involving the CSM primary engine, Note the SPS Burn Mon Page does NOT work with the SVIb during TLI
+  - Left:       Chn 14  (SPS Burn Mon)
+  - Left Ctr:   Chn 35  (CSM look AGL)
+  - Right: Channel 7 (FDO CSM Orb)
+    - Alternate: Channel 6 (GNC Primary)
+      - When FDO CSM Orb isn't providing useful data
+
+#### AFD Clock
+
+The AFD also controls a 60 minute clock visible both from their local desk and as part of the timing section of the display and projection wall. This can be used to give timing reference to multiple stations, especially counting up for burn timers. The clock displays in MM:SS format and will loop from 59:59 to 00:00 and vice versa.
+
 ## Big screens
 
 Left to right
