@@ -2,7 +2,7 @@
 
 ![MOCR main-room overview](./images/main-room/TEMP-dummy-overview-03-v0_7544.png)
 
-Manual version 0.8311.0-git (for MOCR / "MOCRL" version 0.85)
+Manual version 0.8607.0-git (for MOCR / "MOCRL" version 0.94)
 
 This manual isn't necessarily realistic, and is not crew-rated.
 
