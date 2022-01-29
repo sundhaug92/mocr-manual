@@ -85,7 +85,7 @@ The flight director role is mostly the same as in Mercury. This includes holding
 
 ### Assistant Flight Director
 
-The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the [](#big-screens). This is done in a similar way to selecting content for the small screens (See [Screens](#screens)), with the addition of a few buttons to select the projectors.
+The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the [](#projector-screens). This is done in a similar way to selecting content for the small screens (See [Screens](#screens)), with the addition of a few buttons to select the projectors. Note that the main projector screen uses 4 digit channels rather than 2 digit ones, and cannot display any two digit channel. The aux projector screen is currently INOP, locked to a static image.
 
 #### Main room display screens
 
@@ -121,15 +121,48 @@ The screens at the front of the room are generally set to reflect the current mi
 
 The AFD also controls a 60 minute clock visible both from their local desk and as part of the timing section of the display and projection wall. This can be used to give timing reference to multiple stations, especially counting up for burn timers. The clock displays in MM:SS format and will loop from 59:59 to 00:00 and vice versa.
 
-## Big screens
+## Projector and Timing Wall
 
-Left to right
+![](./images/main-room/TEMP-Proj-&-Timing.png)
 
-1. LEFT PROJ TV
-2. CENTER LEFT PROJ TV
-3. MAIN PROJ SCREEN
-4. AUX PROJ SCREEN
-5. RIGHT PROJ TV
+The front of the MOCR contains a series of projector screens and alpha numerical displays designed to help with coordination across all stations.
+
+### Timing Displays
+
+The top row of the wall consists of nine alphanumeric display panels which display information regarding the timing of various mission stages for easy reference anywhere in the room. Though currently only five of the timing displays are operational in Reentry.
+
+- Left set
+  - Left: INOP
+  - Center: INOP
+  - Right: Current Greenwich Mean Time (GMT)
+- Central Set
+  - Left: Ground Elapsed Time (GET): Time from liftoff as observed from earth.
+  - Center: TB#: A set of timing clocks as part of the IU package aboard the Saturn V. Controlled various automated functions during Boost and TLI. The currently active clock is repeated here for reference by mission controllers, along with its clock number (1-8).
+    - TB Clocks:
+      - TB 1 Liftoff (LO)
+      - TB 2 S-IC center engine cutoff (CECO)
+      - TB 3 S-IC outboard engine cutoff(OECO)
+      - TB 4 S-II culoff
+      - TB 5 S-IVB cutoff(end boost phase)
+      - TB 6 S-IVB restart preparations & second bum
+      - TB 7 S-IVB cutoff
+      - TB 8 S-IVB propellant dump sequence
+  - Right: (INOP) Computed signal loss window as the spacecraft transits behind the moon
+    - (INOP) Aquisition Of Signal (AOS): Expected time of telemetry pickup after far side moon transit
+    - (INOP) Loss Of Signal (LOS): Expected time of telemetry drop preceding next far side moon transit
+- Right set
+  - Left: RTCC computed burn times for TLI/SPS
+    - Time of IGnition: Computed GET time for next RTCC burn
+    - Countdown: Time till ignition of next RTCC burn
+  - Center: INOP
+  - Right: AFD Timer: AFD controlled clock used for coordinating various stations or roomwide reference. As its controlled by the AFD and usually set at the request of either a controller or the flight director, its purpose can change over the course of the mission and is usually state and objective dependent.
+
+### Projector Screens
+
+The lower row of the front wall contains five screens for mission telemetry and data, dominated by the absolutely massive main projector screen in the center.
+Three of the screens can be set to mirror any screen availiable to the regular control stations. While the main projector screen can be set to show the current orbital position of the spacecraft in reference to Earth, the Moon, or the transit between the two. The aux projector screen is currently INOP in Reentry and displays a static image of landing sites. The screens from left to right are the Left Projector TV, Center Left Projector TV, Main Projector Screen, Aux Projector Screen, and Right Projector TV.
+
+These screens are set at the discretion of the AFD, either on the AFD's own schedule or upon request by a controller. All four of the operational screens MUST be set manually, there is no automated screen switching system for any stage of the mission.
 
 ## Screens
 
@@ -207,7 +240,7 @@ See section [RTCC](#rtcc)
 
 #### (1111) Earth map
 
-Used on main screen to show the Earth map
+Used on main screen to show the Earth orbital position map and the Earth-Moon-Earth transit position (Transit info currently INOP)
 
 #### (2222) Lunar map
 
