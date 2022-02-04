@@ -85,7 +85,7 @@ The flight director role is mostly the same as in Mercury. This includes holding
 
 ### Assistant Flight Director
 
-The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the [](#projector-screens). This is done in a similar way to selecting content for the small screens (See [Screens](#screens)), with the addition of a few buttons to select the projectors. Note that the main projector screen uses 4 digit channels rather than 2 digit ones, and cannot display any two digit channel. The aux projector screen is currently INOP, locked to a static image.
+The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the [](#projector-screens). This is done in a similar way to selecting content for the small screens (See [Screens](#screens)), with the addition of a few buttons to select the projectors. Note that the main projector screen uses 4 digit channels rather than 2 digit ones, and cannot display any two digit channel.
 
 #### Main room display screens
 
