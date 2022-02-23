@@ -141,6 +141,8 @@ To select a TV-mode channel:
 2. Select the channel with the appropriate input selector, depending on which screen you want to put it on. If you're unsure of which channel you want, select [TV-guide (channel XX)](#16-tv-guide).
 3. Now one or more buttons should light up, depending on how many screens controlled by that input selector. Press the relevant screen by pushing selecting it under "ENTER".
 
+Information from each screen can be "Hardcopied" to %UserProfile%\AppData\LocalLow\Wilhelmsen Studios\ReEntry\Export\MOCR as a PNG, which can then be shared on discord or any other site as required.
+
 ### TV channels
 
 #### (01) CMC DSKY AND STATE BUFF MON (AGC CMC DSKY)
