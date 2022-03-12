@@ -367,7 +367,7 @@ code {
   </script>
 <h1 id="reentry-mission-operations-control-room">Reentry Mission Operations Control Room</h1>
 <p><img src="./images/main-room/TEMP-dummy-overview-03-v0_7544.png" alt="MOCR main-room overview"></p>
-<p>Manual version 0.8607.0-git (for MOCR / &quot;MOCRL&quot; version 0.94)</p>
+<p>Manual version 0.8607.1-git (for MOCR / &quot;MOCRL&quot; version 0.94)</p>
 <p>This manual isn't necessarily realistic, and is not crew-rated.</p>
 <p><a href="https://github.com/sundhaug92/mocr-manual/raw/master/readme.pdf">PDF-version</a></p>
 <p>This manual assumes you have already read the MCC-manual</p>
@@ -418,7 +418,7 @@ Booster has three screens to keep a track of everything. Left and center is cont
 <p><img src="./images/main-room/flight-countdown-1-proceed-v0_8093.png" alt="">
 <img src="./images/main-room/flight-countdown-1-hold-v0_8093.png" alt=""></p>
 <h3 id="assistant-flight-director">Assistant Flight Director</h3>
-<p>The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the <a href="#big-screens"></a>. This is done in a similar way to selecting content for the small screens (See <a href="#screens">Screens</a>), with the addition of a few buttons to select the projectors.</p>
+<p>The assistant flight director role, is as the name implies to assist the flight director. In addition, they have the responsibility of selecting what should be shown on the <a href="#projector-screens"></a>. This is done in a similar way to selecting content for the small screens (See <a href="#screens">Screens</a>), with the addition of a few buttons to select the projectors. Note that the main projector screen uses 4 digit channels rather than 2 digit ones, and cannot display any two digit channel.</p>
 <h4 id="main-room-display-screens">Main room display screens</h4>
 <p>The screens at the front of the room are generally set to reflect the current mission task in the short term. Screens may be put up on request, but a good AFD should have a &quot;set&quot; of screens ready to go depending on current objectives. A few example mission tasks and their matching screen sets are provided below.</p>
 <ul>
@@ -471,15 +471,63 @@ Booster has three screens to keep a track of everything. Left and center is cont
 </ul>
 <h4 id="afd-clock">AFD Clock</h4>
 <p>The AFD also controls a 60 minute clock visible both from their local desk and as part of the timing section of the display and projection wall. This can be used to give timing reference to multiple stations, especially counting up for burn timers. The clock displays in MM:SS format and will loop from 59:59 to 00:00 and vice versa.</p>
-<h2 id="big-screens">Big screens</h2>
-<p>Left to right</p>
-<ol>
-<li>LEFT PROJ TV</li>
-<li>CENTER LEFT PROJ TV</li>
-<li>MAIN PROJ SCREEN</li>
-<li>AUX PROJ SCREEN</li>
-<li>RIGHT PROJ TV</li>
-</ol>
+<h2 id="projector-and-timing-wall">Projector and Timing Wall</h2>
+<p><img src="./images/main-room/TEMP-Proj-&amp;-Timing.png" alt=""></p>
+<p>The front of the MOCR contains a series of projector screens and alpha numerical displays designed to help with coordination across all stations.</p>
+<h3 id="timing-displays">Timing Displays</h3>
+<p>The top row of the wall consists of nine alphanumeric display panels which display information regarding the timing of various mission stages for easy reference anywhere in the room. Though currently only five of the timing displays are operational in Reentry.</p>
+<ul>
+<li>Left set
+<ul>
+<li>Left: INOP</li>
+<li>Center: INOP</li>
+<li>Right: Current Greenwich Mean Time (GMT)</li>
+</ul>
+</li>
+<li>Central Set
+<ul>
+<li>Left: Ground Elapsed Time (GET): Time from liftoff as observed from earth.</li>
+<li>Center: TB#: A set of timing clocks as part of the IU package aboard the Saturn V. Controlled various automated functions during Boost and TLI. The currently active clock is repeated here for reference by mission controllers, along with its clock number (1-8).
+<ul>
+<li>TB Clocks:
+<ul>
+<li>TB 1 Liftoff (LO)</li>
+<li>TB 2 S-IC center engine cutoff (CECO)</li>
+<li>TB 3 S-IC outboard engine cutoff(OECO)</li>
+<li>TB 4 S-II culoff</li>
+<li>TB 5 S-IVB cutoff(end boost phase)</li>
+<li>TB 6 S-IVB restart preparations &amp; second bum</li>
+<li>TB 7 S-IVB cutoff</li>
+<li>TB 8 S-IVB propellant dump sequence</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Right: (INOP) Computed signal loss window as the spacecraft transits behind the moon
+<ul>
+<li>(INOP) Aquisition Of Signal (AOS): Expected time of telemetry pickup after far side moon transit</li>
+<li>(INOP) Loss Of Signal (LOS): Expected time of telemetry drop preceding next far side moon transit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Right set
+<ul>
+<li>Left: RTCC computed burn times for TLI/SPS
+<ul>
+<li>Time of IGnition: Computed GET time for next RTCC burn</li>
+<li>Countdown: Time till ignition of next RTCC burn</li>
+</ul>
+</li>
+<li>Center: INOP</li>
+<li>Right: AFD Timer: AFD controlled clock used for coordinating various stations or roomwide reference. As its controlled by the AFD and usually set at the request of either a controller or the flight director, its purpose can change over the course of the mission and is usually state and objective dependent.</li>
+</ul>
+</li>
+</ul>
+<h3 id="projector-screens">Projector Screens</h3>
+<p>The lower row of the front wall contains five screens for mission telemetry and data, dominated by the absolutely massive main projector screen in the center.
+Three of the screens can be set to mirror any screen availiable to the regular control stations. While the main projector screen can be set to show the current orbital position of the spacecraft in reference to Earth, the Moon, or the transit between the two. The aux projector screen is currently INOP in Reentry and displays a static image of landing sites. The screens from left to right are the Left Projector TV, Center Left Projector TV, Main Projector Screen, Aux Projector Screen, and Right Projector TV.</p>
+<p>These screens are set at the discretion of the AFD, either on the AFD's own schedule or upon request by a controller. All four of the operational screens MUST be set manually, there is no automated screen switching system for any stage of the mission.</p>
 <h2 id="screens">Screens</h2>
 <p>Each console has a number of 14&quot; screens. With these you can look at a number of channels with various data. One way of selecting the data to be shown is to use TV-mode.</p>
 <p>To select a TV-mode channel:</p>
@@ -488,55 +536,56 @@ Booster has three screens to keep a track of everything. Left and center is cont
 <li>Select the channel with the appropriate input selector, depending on which screen you want to put it on. If you're unsure of which channel you want, select <a href="#16-tv-guide">TV-guide (channel XX)</a>.</li>
 <li>Now one or more buttons should light up, depending on how many screens controlled by that input selector. Press the relevant screen by pushing selecting it under &quot;ENTER&quot;.</li>
 </ol>
+<p>Information from each screen can be &quot;Hardcopied&quot; to %UserProfile%\AppData\LocalLow\Wilhelmsen Studios\ReEntry\Export\MOCR as a PNG, which can then be shared on Discord or any other site as required.</p>
 <h3 id="tv-channels">TV channels</h3>
 <h4 id="01-cmc-dsky-and-state-buff-mon-agc-cmc-dsky">(01) CMC DSKY AND STATE BUFF MON (AGC CMC DSKY)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel01_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel01_0.png" alt=""></p>
 <p>This screen shows the CMC DSKY (CSM AGC DSKY), and various AGC state.</p>
 <h4 id="03-csm-eps-cryo">(03) (CSM EPS CRYO)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel03_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel03_0.png" alt=""></p>
 <h4 id="04-veh-acc">(04) (VEH ACC)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel04_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel04_0.png" alt=""></p>
 <h4 id="06-csm-gnc-primary-tab-gnc-primary">(06) CSM GNC PRIMARY TAB (GNC PRIMARY)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel06_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel06_0.png" alt=""></p>
 <h4 id="07-fdo-csm-orb">(07) (FDO CSM ORB)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel07_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel07_0.png" alt=""></p>
 <h4 id="12-csm-rcs-stus">(12) (CSM RCS STUS)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel12_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel12_0.png" alt=""></p>
 <h4 id="14-sps-burn-mon">(14) (SPS BURN MON)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel14_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel14_0.png" alt=""></p>
 <h4 id="16-tv-guide">(16) TV GUIDE</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel16_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel16_0.png" alt=""></p>
 <p>This channel shows you a listing of what's on each channel. This listing is split in two, with three columns each showing the channel number, a description, and an identifier.</p>
 <h4 id="25-slv-bse-no-1">(25) SLV BSE NO 1</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel25_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel25_0.png" alt=""></p>
 <h4 id="27-lm-dsky">(27) (LM DSKY)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel27_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel27_0.png" alt=""></p>
 <p>This is the LM-equivalent of <a href="#01-cmc-dsky-and-state-buff-mon-agc-cmc-dsky">AGC CMC DSKY (channel 01)</a></p>
 <h4 id="28-lm-eecom">(28) (LM EECOM)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel28_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel28_0.png" alt=""></p>
 <h4 id="34-csm-eps-hd">(34) (CSM EPS HD)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel34_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel34_0.png" alt=""></p>
 <h4 id="35-csm-look-agl">(35) (CSM LOOK AGL)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel35_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel35_0.png" alt=""></p>
 <h4 id="36-lm-ecs">(36) (LM ECS)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel36_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel36_0.png" alt=""></p>
 <h4 id="37-lm-look-agl">(37) (LM LOOK AGL)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel37_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel37_0.png" alt=""></p>
 <h4 id="39-fdo-lm-orb">(39) (FDO LM ORB)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel39_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel39_0.png" alt=""></p>
 <h4 id="44-lm-electinst">(44) (LM ELECT/INST)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel44_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel44_0.png" alt=""></p>
 <h4 id="45-lm-guid-cont">(45) (LM GUID CONT)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel45_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel45_0.png" alt=""></p>
 <h4 id="47-lm-ags">(47) (LM AGS)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel47_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel47_0.png" alt=""></p>
 <h4 id="48-lm-desasc">(48) (LM DES/ASC)</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel48_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel48_0.png" alt=""></p>
 <h4 id="90-rtcc">(90) RTCC</h4>
-<p><img src="images\screens\Base_Examples\Hardcopy_channel90_0.png" alt=""></p>
+<p><img src="images/screens/Base_Examples/Hardcopy_channel90_0.png" alt=""></p>
 <p>See section <a href="#rtcc">RTCC</a></p>
 <h4 id="1111-earth-map">(1111) Earth map</h4>
-<p>Used on main screen to show the Earth map</p>
+<p>Used on main screen to show the Earth orbital position map and the Earth-Moon-Earth transit position (Transit info currently INOP)</p>
 <h4 id="2222-lunar-map">(2222) Lunar map</h4>
 <p>Used on main screen to show the Lunar map and AGL</p>
 <h2 id="rtcc">RTCC</h2>

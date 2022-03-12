@@ -2,7 +2,7 @@
 
 ![MOCR main-room overview](./images/main-room/TEMP-dummy-overview-03-v0_7544.png)
 
-Manual version 0.8607.0-git (for MOCR / "MOCRL" version 0.94)
+Manual version 0.8607.1-git (for MOCR / "MOCRL" version 0.94)
 
 This manual isn't necessarily realistic, and is not crew-rated.
 
@@ -180,93 +180,93 @@ Information from each screen can be "Hardcopied" to %UserProfile%\AppData\LocalL
 
 #### (01) CMC DSKY AND STATE BUFF MON (AGC CMC DSKY)
 
-![](images\screens\Base_Examples\Hardcopy_channel01_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel01_0.png)
 
 This screen shows the CMC DSKY (CSM AGC DSKY), and various AGC state.
 
 #### (03) (CSM EPS CRYO)
 
-![](images\screens\Base_Examples\Hardcopy_channel03_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel03_0.png)
 
 #### (04) (VEH ACC)
 
-![](images\screens\Base_Examples\Hardcopy_channel04_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel04_0.png)
 
 #### (06) CSM GNC PRIMARY TAB (GNC PRIMARY)
 
-![](images\screens\Base_Examples\Hardcopy_channel06_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel06_0.png)
 
 #### (07) (FDO CSM ORB)
 
-![](images\screens\Base_Examples\Hardcopy_channel07_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel07_0.png)
 
 #### (12) (CSM RCS STUS)
 
-![](images\screens\Base_Examples\Hardcopy_channel12_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel12_0.png)
 
 #### (14) (SPS BURN MON)
 
-![](images\screens\Base_Examples\Hardcopy_channel14_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel14_0.png)
 
 #### (16) TV GUIDE
 
-![](images\screens\Base_Examples\Hardcopy_channel16_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel16_0.png)
 
 This channel shows you a listing of what's on each channel. This listing is split in two, with three columns each showing the channel number, a description, and an identifier.
 
 #### (25) SLV BSE NO 1
 
-![](images\screens\Base_Examples\Hardcopy_channel25_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel25_0.png)
 
 #### (27) (LM DSKY)
 
-![](images\screens\Base_Examples\Hardcopy_channel27_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel27_0.png)
 
 This is the LM-equivalent of [AGC CMC DSKY (channel 01)](#01-cmc-dsky-and-state-buff-mon-agc-cmc-dsky)
 
 #### (28) (LM EECOM)
 
-![](images\screens\Base_Examples\Hardcopy_channel28_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel28_0.png)
 
 #### (34) (CSM EPS HD)
 
-![](images\screens\Base_Examples\Hardcopy_channel34_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel34_0.png)
 
 #### (35) (CSM LOOK AGL)
 
-![](images\screens\Base_Examples\Hardcopy_channel35_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel35_0.png)
 
 #### (36) (LM ECS)
 
-![](images\screens\Base_Examples\Hardcopy_channel36_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel36_0.png)
 
 #### (37) (LM LOOK AGL)
 
-![](images\screens\Base_Examples\Hardcopy_channel37_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel37_0.png)
 
 #### (39) (FDO LM ORB)
 
-![](images\screens\Base_Examples\Hardcopy_channel39_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel39_0.png)
 
 #### (44) (LM ELECT/INST)
 
-![](images\screens\Base_Examples\Hardcopy_channel44_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel44_0.png)
 
 #### (45) (LM GUID CONT)
 
-![](images\screens\Base_Examples\Hardcopy_channel45_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel45_0.png)
 
 #### (47) (LM AGS)
 
-![](images\screens\Base_Examples\Hardcopy_channel47_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel47_0.png)
 
 #### (48) (LM DES/ASC)
 
-![](images\screens\Base_Examples\Hardcopy_channel48_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel48_0.png)
 
 #### (90) RTCC
 
-![](images\screens\Base_Examples\Hardcopy_channel90_0.png)
+![](images/screens/Base_Examples/Hardcopy_channel90_0.png)
 
 See section [RTCC](#rtcc)
 
