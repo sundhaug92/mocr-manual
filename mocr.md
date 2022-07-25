@@ -142,7 +142,7 @@ The top row of the wall consists of nine alphanumeric display panels which displ
       - TB 1 Liftoff (LO)
       - TB 2 S-IC center engine cutoff (CECO)
       - TB 3 S-IC outboard engine cutoff(OECO)
-      - TB 4 S-II culoff
+      - TB 4 S-II cutoff
       - TB 5 S-IVB cutoff(end boost phase)
       - TB 6 S-IVB restart preparations & second bum
       - TB 7 S-IVB cutoff
